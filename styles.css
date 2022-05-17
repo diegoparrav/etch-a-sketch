@@ -1,0 +1,15 @@
+.mainContainer{
+    display: grid;
+    gap:1px 1px;
+    grid-template-columns:6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% ;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+/*.gridElement{
+    border-color: blueviolet;
+    border-style: dashed;
+}*/
+
+.on{
+    background-color: blue;
+}
