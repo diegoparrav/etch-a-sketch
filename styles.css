@@ -1,8 +1,22 @@
+html,
+body{
+    height: 100%;
+    background-color: rgb(162, 177, 177);
+}
+
+.button{
+    margin: 10px;
+}
+
 .mainContainer{
     display: grid;
+    height: 100%;
     gap:1px 1px;
-    grid-template-columns:6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% ;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns:6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6%;
+    grid-template-rows:6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6%;
+
+    /*50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px*/
+    margin: 10px;
 }
 
 /*.gridElement{
